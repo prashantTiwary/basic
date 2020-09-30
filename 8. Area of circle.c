@@ -9,10 +9,10 @@ return M_PI * radius * radius;
 int main()
 {
 float area, radius;
-printf(“\nEnter the radius of the circle : “);
-scanf(“%f”, &radius);
+printf(â€œ\nEnter the radius of the circle : â€œ);
+scanf(â€œ%fâ€, &radius);
 area = area_of_a_circle(radius);
-printf(“\nArea of the circle : %f\n”, area);
+printf(â€œ\nArea of the circle : %f\nâ€, area);
 return 0;
 
 
@@ -23,15 +23,15 @@ return 0;
 
 float area_of_circle(float *radius)
 {
-return M_PI + (*radius) * (*radius);
+return M_PI * (*radius) * (*radius);
 }
 int main()
 {
 float radius;
 
-printf(“\nEnter the radius of Circle : “);
-scanf(“%f”, &radius);
-printf(“\nArea of Circle : %f”, area_of_circle(&radius));
+printf(â€œ\nEnter the radius of Circle : â€œ);
+scanf(â€œ%fâ€, &radius);
+printf(â€œ\nArea of Circle : %fâ€, area_of_circle(&radius));
 
 return (0);
 }
