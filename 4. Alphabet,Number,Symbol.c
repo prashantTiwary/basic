@@ -6,7 +6,7 @@ int main()
 	scanf("%c",&c);
 	if(c>=65 && c<=90)
 		printf("Upper");
-	else if(c>97 && c<=122)
+	else if(c>=97 && c<=122)
 		printf("Lower");
 	else if(c>=48 && c<=57)
 		printf("Number");
